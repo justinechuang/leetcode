@@ -1,4 +1,4 @@
-//125 Valid Palindrome
+//125 Valid Palindrome (Easy)
 
 class Solution {
 	public boolean isPalindrome(String s) {
@@ -31,3 +31,5 @@ class Solution {
 		return true;
 	}
 }
+//Time Complexity: O(N)
+//Space Complexity: O(N)
