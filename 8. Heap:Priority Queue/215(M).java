@@ -20,6 +20,16 @@ public class Solution {
     }
 }
 
+//Note: the easy ass solution is to sort the array and return the number thats at array.length - k index.. 
+//the above is the non-sorting answer 
+
+class Solution {
+    public int findKthLargest(int[] nums, int k) {
+        Arrays.sort(nums);
+        return nums[nums.length-k];
+    }
+}
+
 
 /*
 Example:
